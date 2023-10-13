@@ -1,0 +1,7 @@
+<form action="{% url 'registred_jungleing' %}" method="POST">
+
+    {% csrf_token %}
+    <label for="">Type of Jungleing</label>
+    <input type="text", name="TypeJungleing">
+    <button type="submit">Save</button>
+</form>
